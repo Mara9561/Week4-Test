@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> News</title>
+        <meta name="viewport" content="width=device-width"/>
+        <link rel="stylesheet" href="StyleSheet.css">
+        <script src="Funzioni.js"></script>
+        
+    </head>
+    <body style="margin:0%">
+    <header class="header2">
+        <h1>News</h1>
+    </header>
+        <article>
+               <header class="header3"> 
+                   <h1>Iscriviti alla newsletter per rimanere aggiornato!</h1>
+                </header>
+
+               <form onsubmit="return false">
+                   Nome: <input type="text" id="nome" onchange="change()">
+                   <br>
+                   <br>
+                   <input type="submit" value="Subscrive" disabled onclick="unsubscrive()"/>
+               </form>
+               
+        </article>
+        <div id="debug"></div>
+        <center>
+            <button class="home"><a href = "Home.html">Home</a></button>
+        </center>
+        
+        <footer>
+            Mara Barani
+        </footer>
+    </body>
+</html>

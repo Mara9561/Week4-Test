@@ -1,0 +1,59 @@
+.headerHome {
+    color: rebeccapurple;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 35px; 
+}
+
+.header2{
+    padding-left: 20px; 
+    font-size: 30px;
+    font-style: italic; 
+    color:  rgb(136, 22, 22); 
+    background-color: white;
+}
+
+.header3 {
+    color:  rgb(136, 22, 22); 
+    text-align: center;
+    font-size: larger;
+}
+
+body{
+    background-color: rgba(218, 203, 190, 0.3);
+}
+.home{
+    color: black;
+    font-size:medium;
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 18px;
+    border-radius: 10%;
+}
+
+figcaption {
+    background-color: rgb(136, 22, 22);
+    color: white;
+    font-style: italic;
+    font-size: 22px;
+    padding: 5px;
+    text-align: center;
+  }
+
+a:hover{
+    background-color: rgb(176, 161, 231);
+}  
+
+ul {
+    font-size: larger;
+    list-style-type: none;
+}
+
+p {
+    margin: 18px;
+    font-size: 17px;
+}
+
+form, footer{
+    margin: 18px;
+}
